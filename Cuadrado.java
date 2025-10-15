@@ -1,12 +1,12 @@
 public class Cuadrado extends Figura {
-    private double lado;
 
-    public Cuadrado(double lado) {
-        this.lado = lado;
+    public Cuadrado (double result){
+        super(result);
     }
 
-    @Override
-    public double calcularArea() {
-        return ((lado*lado)/2);
+    @Override 
+    public void area(){
+        result = (result*result)/2;
+        System.out.println("su area es: " + result);
     }
 }

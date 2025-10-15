@@ -13,14 +13,14 @@ public class Main {
             double radio = scanner.nextDouble();
 
             Circulo circulo = new Circulo(radio);
-            System.out.println("El area del circulo es: " + circulo.calcularArea());
+            circulo.area();
 
         } else if (opcion == 2) {
             System.out.print("Ingrese el lado del cuadrado: ");
             double lado = scanner.nextDouble();
 
             Cuadrado cuadrado = new Cuadrado(lado);
-            System.out.println("El area del cuadrado es: " + cuadrado.calcularArea());
+            cuadrado.area();
 
         } else {
             System.out.println("ERROR");
